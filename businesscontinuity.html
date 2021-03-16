@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Harbour1®</title>
+      <link rel="icon" href="http://103.210.73.84/Harbour1-homepage/images/H1 logo 1000x1000.png">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- jquery cdn-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <!-- -->
+      <!-- font awesome cdn-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--  -->
+      <!-- slider cdn-->
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <!-- -->
+      <!-- animation cdn cdn-->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <script src="https://wowjs.uk/dist/wow.min.js"></script>
+      <link rel="stylesheet" href="https://wowjs.uk/css/libs/animate.css">
+      <!-- -->
+      <script src="https://www.jqueryscript.net/demo/Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+      <script>
+         new WOW().init();
+                
+                function myFunction(x) {
+                x.classList.toggle("change");
+                }
+                
+                $(document).ready(function(){
+          
+         
+         $('.counter').countUp({
+         'time': 2000,
+         'delay': 10
+         });
+         
+         
+         
+          
+          			window.onscroll = function() {myFunctions()};
+         
+         var header = document.getElementById("myHeader");
+         var sticky = header.offsetTop;
+         
+         function myFunctions() {
+         if (window.pageYOffset > sticky) {
+           header.classList.add("sticky");
+         } else {
+           header.classList.remove("sticky");
+         }
+         }
+                
+                $('.items').slick({
+                dots: true,
+                infinite: true,
+                speed: 800,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+                }
+                }
+                
+                ]
+                });
+                });
+         
+         
+         
+         
+             
+      </script>
+      <style>
+         body {
+         margin: 0;
+         font-family: 'Roboto', sans-serif;
+         font-size: 1rem;
+         font-weight: 400;
+         line-height: 1.5;
+         color:#535353;
+         text-align: left;
+         background-color: #fff;
+         }
+         .nav-link {
+         display: block;
+         padding: .5rem 1rem;
+         color: #6734FF;
+         }
+         .card_top {
+         position: relative;
+         top:33px;
+         color: white;
+         border: none;
+         } 
+         .fnt_size {
+         font-size: 73px; 
+         font-weight: 700;
+         }
+         .sub_fnt {
+         font-size: 22px;
+         font-weight: 700;
+         }
+         .items {
+         width: 90%;
+         margin: 0px auto;
+         margin-top:50px
+         }
+         .slick-slide {
+         margin: 10px
+         }
+         .slick-slide img {
+         width: 100%;
+         border: 0px solid #fff
+         }
+         .slick-prev:before, .slick-next:before {
+         font-family: 'slick';
+         font-size: 20px;
+         line-height: 1;
+         opacity: .75;
+         color: #040404;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         }	
+         .footer_clss{
+         background: #4B24C3;
+         position: relative;
+         top: 16px;
+         height: 75px;
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         justify-content: center;
+         }
+         .p_fnt {
+         color: white;
+         font-weight:500;
+         }
+         .cc_bar{
+         color: #6735ff;
+         }
+         .cc-color-1{
+         color: #4185a9;
+         }
+         .cc-color-2{
+         color: #2f9a8d;
+         }
+         .cc-color-3{
+         color: #5d982b;
+         }
+         .cc-color-4{
+         color: #8765c6;
+         }
+         p {
+         margin-top: 0;
+         margin-bottom: 1rem;
+         font-size: 18px;  
+         }
+         .cc_fntt {
+         color: #2b1485;
+         background: #fbfbff;
+         padding: 12px 14px;
+         cursor: pointer;
+         border-radius: 50%;
+         font-size: 15px;
+         }
+         .top-container {
+         background-color: #f1f1f1;
+         padding: 30px;
+         text-align: center;
+         }
+         .header {
+         padding: 10px 16px;
+         background: #555;
+         color: #f1f1f1;
+         }
+         .content {
+         padding: 16px;
+         }
+         .sticky {
+         position: fixed;
+         top: 0;
+         width: 100%;
+         }
+         .sticky + .content {
+         padding-top: 102px;
+         }
+         .navbar-light{
+         z-index: 999;
+         background: white;
+         }  
+         .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+         color: #495057;
+         background-color: #fff;
+         border-bottom: 3px solid #4441c5;
+         }
+         .nav-tabs {
+         border-bottom: none;
+         display: flex;
+         justify-content: center;
+         }
+         .nav-tabs .nav-link {
+         border: none;
+         border-top-left-radius: .25rem;
+         border-top-right-radius: .25rem;
+         }
+         .cc_header{
+         border-top: 6px solid #4441c5;
+         background: none;
+         border-bottom: none;
+         }
+         .min_height_card{
+         min-height:265px;
+         }
+		 .cc_fnt{
+			font-weight: 100;
+			border: 1px solid;
+			font-size: 13px;
+			color: green;
+			margin-right: 7px;
+			padding: 3px;
+			border-radius: 50%;
+			}
+			.cc_clr{
+			color: #c5c1d0;
+			}
+      </style>
+   </head>
+   <body>
+      <nav class="navbar navbar-light justify-content-between" id="myHeader">
+         <div class="container">
+            <a class="navbar-brand"><img  src="../Harbour1-homepage/images/harbour_logo.png" style="max-width: 100%;height:9vh;"></a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s"  href="#"><strong>Products</strong> </a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s" href="#"><strong>Industry Solutions</strong></a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s" href="#"><strong>Cloud Enablement </strong></a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s" href="#"><strong>Pricing </strong></a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s" href="#"><strong>Partners </strong></a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s" href="#"><strong>Self Service </strong></a>
+            <i class="fa fa-bars cc_bar"></i>
+         </div>
+      </nav>
+      <picture>
+         <source media="(max-width: 728px)" srcset="/Harbour1-homepage/imges/Harbour1_Banner_2020_2b_780x840.png?v10">
+         <img class="mb-5" src="../Harbour1-homepage/images/B1_1520x529.png" alt="Harbour1 Cloud Backup as a Service Banner" style="width:100%" data-pagespeed-url-hash="642989984" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      </picture>
+      <div class="container content site-wrap">
+         <div class="text-center">
+            <h3><strong>Prevention is better than cure</strong></h3>
+            <p>IT disasters can be natural or inflicted by human error. Any such threat, causing a data center failure, server corruption, or cyber attacks can be expensive for your business. They not only disrupt your operations, but also cause permanent data loss, damage your reputation and impact your revenue. With business continuity on Harbour1, enterprises can ensure that adverse effect on their business runtime is minimalistic and  they get to return to full operational state in no time. </p>
+            <h3 class="m-4"><strong>Explore our Business Continuity Products</strong></h3>
+            <ul class="nav nav-tabs" role="tablist">
+               <li class="nav-item">
+                  <a class="nav-link active cc_clr" data-toggle="tab" href="#home"><h5>Disaster Recovery</h5></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link cc_clr" data-toggle="tab" href="#menu1"><h5>Backup</h5></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link cc_clr" data-toggle="tab" href="#menu2"><h5>High Availability (HA)</h5></a>
+               </li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+               <div id="home" class="container tab-pane active">
+                  <br>
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <p>Harbour1 offers Disaster Recovery as a Service(DRaaS) ensuring near zero business disruption in case of an outage. DRaaS provides rapid failover and failback for your IT environment across infrastructure , applications and processes. Choose from active-active,  active-passive or cold DR to balance business needs and TCO. Enterprises get to leverage multi availability zones of Harbour1 to design an effective Near and Far DR policy.</p>
+                     </div>
+                     <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                  </div>
+                  <h3 class="m-5"><strong>Features</strong></h3>
+                  <div class="row mt-5">
+                     <div class="col-lg-4">
+                        <div class="card rounded-0 min_height_card span3 wow pulse" data-wow-duration="7s" data-wow-delay="0.5s" >
+                           <div class="card-header cc_header rounded-0">
+                              <div class="d-flex align-items-center justify-content-start">
+                                 <img style="height:10vh;max-width:100%" src="../Harbour1-homepage/images/one_size.png">
+                                 <h5 class="m-0"> Custom Deployment</h5>
+                              </div>
+                           </div>
+                           <div class="card-body">
+                              <p>Recovery of business-critical applications and data within the RPO and RTO your business needs</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="card rounded-0 min_height_card span3 wow pulse" data-wow-duration="7s" data-wow-delay="0.5s" >
+                           <div class="card-header cc_header rounded-0">
+                              <div class="d-flex align-items-center justify-content-start">
+                                 <img style="height:10vh;max-width:100%" src="../Harbour1-homepage/images/one_size.png">
+                                 <h5 class="m-0"> Low Business Risk</h5>
+                              </div>
+                           </div>
+                           <div class="card-body">
+                              <p>Availability Zones across different seismic & topographic regions enabling seamless failovers</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="card rounded-0 min_height_card span3 wow pulse" data-wow-duration="7s" data-wow-delay="0.5s" >
+                           <div class="card-header cc_header rounded-0">
+                              <div class="d-flex align-items-center justify-content-start">
+                                 <img style="height:10vh;max-width:100%" src="../Harbour1-homepage/images/one_size.png">
+                                 <h5 class="m-0"> DR Drills </h5>
+                              </div>
+                           </div>
+                           <div class="card-body">
+                              <p>Periodic drills offers insight to operational readiness and use cases help your organization improve resiliency and recovery time.</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+				  
+				  <h3 class="m-4"><strong>Use cases for Disaster recovery</strong></h3>
+				  <div class="row">
+					<div class="col-lg-4">
+					<p><i class="fa fa-check cc_fnt wow shake"  data-wow-iteration="0.2" data-wow-duration="10s" aria-hidden="true"></i>Protection from various cyber attacks and threats</p>
+					
+					</div>
+					<div class="col-lg-4">
+					<p><i class="fa fa-check cc_fnt wow shake"  data-wow-iteration="0.2" data-wow-duration="10s" aria-hidden="true"></i>Regulatory compliance for running mission critical workloads</p>
+					</div>
+					<div class="col-lg-4">
+					<p><i class="fa fa-check cc_fnt wow shake"  data-wow-iteration="0.2" data-wow-duration="10s" aria-hidden="true"></i>Safeguard your data against natural calamities</p>
+					</div>
+				  </div>
+               </div>
+               <div id="menu1" class="container tab-pane fade">
+                
+					<br>
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <p>Harbour1 Backup service offers a cost effective way to protect your mission critical data and applications from unplanned downtime. By copying and storing your wide range of enterprise workloads in a different zone,  you are assured of  reinstating the files in case of a disruption.</p>
+                     </div>
+                     <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                  </div>
+                  <h3 class="m-5"><strong>Features</strong></h3>
+                  <div class="row mt-5">
+                     <div class="col-lg-4">
+                        <div class="card rounded-0 min_height_card span3 wow pulse" data-wow-duration="7s" data-wow-delay="0.5s" >
+                           <div class="card-header cc_header rounded-0">
+                              <div class="d-flex align-items-center justify-content-start">
+                                 <img style="height:10vh;max-width:100%" src="../Harbour1-homepage/images/one_size.png">
+                                 <h5 class="m-0"> Ease of use</h5>
+                              </div>
+                           </div>
+                           <div class="card-body">
+                              <p>Schedule, manage and restore centrally from one interface </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="card rounded-0 min_height_card span3 wow pulse" data-wow-duration="7s" data-wow-delay="0.5s" >
+                           <div class="card-header cc_header rounded-0">
+                              <div class="d-flex align-items-center justify-content-start">
+                                 <img style="height:10vh;max-width:100%" src="../Harbour1-homepage/images/one_size.png">
+                                 <h5 class="m-0"> Hybrid backup solution</h5>
+                              </div>
+                           </div>
+                           <div class="card-body">
+                              <p>Single point  solution for your workloads running on cloud and on-premise</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="card rounded-0 min_height_card span3 wow pulse" data-wow-duration="7s" data-wow-delay="0.5s" >
+                           <div class="card-header cc_header rounded-0">
+                              <div class="d-flex align-items-center justify-content-start">
+                                 <img style="height:10vh;max-width:100%" src="../Harbour1-homepage/images/one_size.png">
+                                 <h5 class="m-0"> Flexible backup options </h5>
+                              </div>
+                           </div>
+                           <div class="card-body">
+                              <p>Restore your entire workloads or specific files and folders for a given duration window</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+				  
+				  <h3 class="m-4"><strong>Use cases for Backup</strong></h3>
+				  <div class="row">
+					<div class="col-lg-4">
+					<p><i class="fa fa-check cc_fnt wow shake"  data-wow-iteration="0.2" data-wow-duration="10s" aria-hidden="true"></i>Protection from ransomware</p>
+					
+					</div>
+					<div class="col-lg-4">
+					<p><i class="fa fa-check cc_fnt wow shake"  data-wow-iteration="0.2" data-wow-duration="10s" aria-hidden="true"></i>In-house server breakdown</p>
+					</div>
+					<div class="col-lg-4">
+					<p><i class="fa fa-check cc_fnt wow shake"  data-wow-iteration="0.2" data-wow-duration="10s" aria-hidden="true"></i>Cold storage of data</p>
+					</div>
+				  </div>
+
+
+				</div>
+               <div id="menu2" class="container tab-pane fade">
+                  <br>
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <p>High Availability on Harbour1 is achieved by creating clusters.<br>As well as load balancing of workloads so that anyone server within the cluster will not get overloaded. </p>
+                     </div>
+                     <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                  </div>
+                  <h3 class="m-5"><strong>Features</strong></h3>
+                  <div class="row mt-5">
+                     <div class="col-lg-4">
+                        <div class="card rounded-0 min_height_card span3 wow pulse" data-wow-duration="7s" data-wow-delay="0.5s" >
+                           <div class="card-header cc_header rounded-0">
+                              <div class="d-flex align-items-center justify-content-start">
+                                 <img style="height:10vh;max-width:100%" src="../Harbour1-homepage/images/one_size.png">
+                                 <h5 class="m-0"> HA clustering</h5>
+                              </div>
+                           </div>
+                           <div class="card-body">
+                              <p>Cloud servers customized and grouped to support workloads with zero or minimum downtime</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="card rounded-0 min_height_card span3 wow pulse" data-wow-duration="7s" data-wow-delay="0.5s" >
+                           <div class="card-header cc_header rounded-0">
+                              <div class="d-flex align-items-center justify-content-start">
+                                 <img style="height:10vh;max-width:100%" src="../Harbour1-homepage/images/one_size.png">
+                                 <h5 class="m-0"> No single point of failure</h5>
+                              </div>
+                           </div>
+                           <div class="card-body">
+                              <p>The redundancy built in by enterprise grade HA softwares provides clusters, ensuring service continuity</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4">
+                        <div class="card rounded-0 min_height_card span3 wow pulse" data-wow-duration="7s" data-wow-delay="0.5s" >
+                           <div class="card-header cc_header rounded-0">
+                              <div class="d-flex align-items-center justify-content-start">
+                                 <img style="height:10vh;max-width:100%" src="../Harbour1-homepage/images/one_size.png">
+                                 <h5 class="m-0"> Monitoring & Detection </h5>
+                              </div>
+                           </div>
+                           <div class="card-body">
+                              <p>Follow the sun monitoring of all servers, resource pools and workloads for preventive detection of possible failures</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+				  
+				  <h3 class="m-4"><strong>Use cases for High Availability</strong></h3>
+				  <div class="row">
+					<div class="col-lg-4">
+					<p><i class="fa fa-check cc_fnt wow shake"  data-wow-iteration="0.2" data-wow-duration="10s" aria-hidden="true"></i>100% availability of mission-critical workloads </p>
+					
+					</div>
+					<div class="col-lg-4">
+					<p><i class="fa fa-check cc_fnt wow shake"  data-wow-iteration="0.2" data-wow-duration="10s" aria-hidden="true"></i>Maximum productivity and reliability </p>
+					</div>
+					<div class="col-lg-4">
+					<p><i class="fa fa-check cc_fnt wow shake"  data-wow-iteration="0.2" data-wow-duration="10s" aria-hidden="true"></i>Updates and fixes with zero downtime</p>
+					</div>
+				  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <footer class="footer_clss">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+               <p class="text-center m-0 p_fnt">All  Rights Reserved @2021</p>
+            </div>
+            <div class="col-lg-4 d-flex">
+               <p class="m-0 p_fnt">Powered <br> By</p>
+               <img src="../Harbour1-homepage/images/Pi logo 180x-07.png" style="max-width: 100%;height:6vh;">
+            </div>
+         </div>
+      </div>
+   </footer>
+</html>

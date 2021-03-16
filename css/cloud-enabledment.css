@@ -1,0 +1,154 @@
+.hb-ceTpHeader , .hb-jorCont{
+	background-color: #f8f7f7;
+}
+.hb-ce-tpCont{
+	padding: 42px 0
+}
+
+.hb-ce-tpCont >h1 , .hb-jorInfo >h2{
+	font-size: 30px;
+	margin-bottom: 12px;
+}
+.hb-ce-tpCont >p , .hb-jorInfo >p{
+	font-size: 18px;
+	line-height: 24px;
+
+}
+.hb-jorInfo{
+	padding: 36px 0;
+	
+}
+.hb-JournLists {
+	 padding: 42px 0;
+    font-size: 0px;
+    z-index: 99;
+    position: relative;
+}
+.hb-JournLists  >li{
+	position: relative;
+	display: inline-block;
+	width: 25%;
+	font-size: 14px;
+	padding: 0px 6px;
+
+
+}
+.hb-cuJoBox {
+	padding: 14px;
+	background-color: #fff;
+	cursor: pointer;
+	transition: 0.5s;
+	text-align: center;
+	border-radius: 10px;
+    box-shadow: 0px 4px 12px rgb(0 0 0 / 12%), 0px 0px 2px rgb(0 0 0 / 8%);
+}
+.hb-cuJoBox:hover{
+	transform: translateY(-10px);
+}
+.hb-jorCont{
+	position: relative;
+}
+.hb-jorCont:after{
+    position: absolute;
+    content: "";
+    background-image: url(https://res.cloudinary.com/siva5456/image/upload/v1613720908/A11_1520x529_copy.png);
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.hb-cuJoBox >span{
+	display: block;
+	padding-top: 24px;
+}
+.hb-cuJoBox >span >img{
+	max-width: 100px;
+}
+.hb-cuJoBox >h3{
+	font-size: 24px;
+	margin: 48px auto 16px;
+}
+.hb-cuJoBox >p{
+	font-size: 16px;
+	line-height: 20px;
+	padding-bottom: 16px;
+}
+.hb-deContO{
+	background-color: #3708b3;
+/*	height: 300px;
+	width: 100%;*/
+
+}
+/*.hb-jorInfo >p{
+	color:#CFCFFF;
+}*/
+
+
+
+
+/******************************/
+.hb-pServices{
+	margin: 42px auto
+}
+.hb-depad {
+	text-align: center;
+}
+.hb-depad >img{
+	max-width: 800px;
+}
+
+.hb-ServiceDef >li:first-child {
+	width: 30%;
+	border-right: 2px solid #545454;
+}
+.hb-ServiceDef >li{
+	width: 70%;
+	vertical-align: top;
+}
+.hb-list-fav >li:first-child{
+	width:25%;
+	text-align: center;
+	}
+.hb-list-fav >li{
+	width: 75%;
+	vertical-align: top
+}
+.hb-list-fav >li >img{
+	max-width: 80px;
+	text-align: right;
+	margin:0px auto;
+	display: block;
+}
+
+.hb-service-INfo >h4{
+	margin-bottom: 14px;
+	font-size: 24px;
+	font-weight: 500;
+}
+.hb-service-INfo  >p{
+	font-size: 16px;
+	padding-right: 16px;
+	line-height: 22px;
+	color: #545454;
+}
+.hb-lisCon >h5{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+.hb-lisCon >p{
+	font-size:16px;
+	line-height: 22px;
+	color: #545454; 
+
+}
+.hb-serviceListing{
+	height: 450px;
+	position: relative;
+	overflow: auto;
+}
+.hb-serviceListing >li+li{
+	margin-top: 36px;
+}

@@ -1,0 +1,264 @@
+#hb_products_Lists{
+	margin:36px auto;
+}
+.hb_products_Lists{
+	margin:24px auto;
+}
+.hb-productHead > h1{
+	font-size: 28px;
+	margin-bottom: 12px;
+	color: #545454;
+}
+.hb-childProducts >h2{
+	color: #545454;
+}
+.hb-productHead > p{
+	font-size: 16px;
+}
+.hb-childProducts{
+	padding-top: 36px;
+}
+.hb_ppCont >p+p{
+	margin-top: 12px;
+}
+.skltbs-tab-group{
+	margin:48px auto;
+	border-bottom: 1px solid #ccc;
+
+}
+.skltbs-panel{
+	display: none;
+}
+.skltbs-panel.current{
+			display: inherit;
+		}
+.skltbs-tab-item{
+	padding-bottom: 16px!important;
+}
+.skltbs-tab-item > button{
+	border: none;
+	background-color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.skltbs-tab-item{
+	vertical-align: top!important;
+}
+.skltbs-tab-item.current{
+	border-bottom: 3px solid #2f1dac;	
+}
+.skltbs-tab-item.current >button{
+	color: #2f1dac;
+}
+.hb-productSec >li{
+	width: 50%;
+	margin:24px auto;
+	vertical-align: middle;
+}
+.hb-rightCont >span , .hb-lefttCont >span{
+	display: block;
+}
+.hb-rightCont >span>img , .hb-leftCont >span>img{
+	width: 100%;
+	max-height: 300px;
+	object-fit: contain;
+
+}
+.tab-link{
+	color: #aaa5a5;
+}
+.hb_ppCont{
+	text-align: justify;
+}
+.hb_ppCont >h3{
+	font-size: 22px;
+	margin-bottom: 16px;
+	color: #545454;
+}
+.hb_ppCont >p{
+	font-size: 16px;
+	line-height: 22px;
+
+}
+
+.hb-leftCont.hb_ppCont >p{
+	text-align: justify;
+}
+.hb_ppCont >h5{
+	font-size: 16px;
+	margin-bottom: 22px;
+	color: #545454;
+}
+.hb_ilp{
+	display: block;
+	padding:12px 0;
+}
+
+
+
+/*************************************/
+.hb-features{
+	position: relative;
+}
+.hb-features >h3{
+	font-size: 22px;
+	color: #545454;
+	margin:48px auto 36px;
+}
+.hb-featuresList {
+	font-size: 0px;
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.hb-featuresList >li{
+     width: 32%;
+    margin: 0 0.65%;
+    vertical-align: top;
+    font-size: 14px;
+    border-top: 5px solid #2f1dac;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 30%), 0 0 0 1px rgb(0 0 0 / 4%);
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hb-featureBox{
+	padding:12px;
+  
+   
+
+}
+.hb-featuresList >li:hover{
+	transform: translateY(-6px);
+}
+.hb-featTopHeader{
+	position: relative;
+	font-size: 0px;
+	margin:24px auto;
+}
+
+.hb-featLogo , .hb-featCont{
+	display: inline-block;
+	width: 70%;
+	vertical-align: top;
+	font-size: 14px;
+}
+.hb-featCont >h6{
+	font-size: 20px;
+	color: #000000d9;
+	margin-bottom: 12px;
+}
+.hb-featCont >p{
+	font-size: 16px;
+	color: #000000;
+	line-height: 22px;
+
+}
+.hb-featLogo{
+	width: 30%;
+}
+.hb-featLogo >img{
+	max-width: 55px;
+}
+.hb-idealList {
+	font-size: 0px;
+	position: relative;
+	padding-bottom: 36px;
+}
+.hb-idealList >li{
+	width: 25%;
+	padding:0px 24px;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: top;
+}
+.hb-idealFet{
+	position: relative;
+	font-size: 0;
+}
+.hb-idealFet >span , .hb-idealFet >p{
+	display: inline-block;
+	font-size: 14px;
+	vertical-align: middle;
+	position: relative;
+}
+.hb-idealFet >span {
+	width: 15%;
+	text-align: center;
+}
+.hb-idealFet >span >img{
+	max-height: 20px;
+}
+.hb-idealFet >p{
+	width: 85%;
+	padding-left: 12px;
+	line-height: 22px;
+	font-size: 19px;
+	
+}
+/*************************************/
+@media (max-width:768px){
+	.hb-productSec >li{
+		width: 100%;
+		margin: 8px auto;
+	}
+
+
+.skltbs-tab-group {
+     margin: 24px auto;
+    overflow: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+.hb_ppCont >h3  , .hb_ppCont >h5{
+	text-align: left;
+}
+#outer{
+	margin-top:36px;
+}
+.hb-rightCont >span>img, .hb-leftCont >span>img{
+	display: none;
+}
+.hb_ppCont >h3{
+	font-size: 18px;
+	margin-top: 12px;
+}
+.hb_ppCont >p {
+    font-size: 14px;
+
+}
+.hb_ppCont >h5{
+	font-size: 16px;
+	margin-bottom: 12px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #272b3f00;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    height: 1px;
+    border-radius: 20px;
+}
+.tab-link{
+	color: #aaa5a5;
+}
+.hb-featuresList >li{
+	width: 100%;
+	margin:12px auto;
+	min-height: inherit;
+}
+.hb-idealList >li{
+	width: 100%;
+	margin-bottom: 12px;
+}
+.hb-features >h3{
+	margin:24px auto;
+}
+.hb-productHead > h1{
+	font-size: 24px;
+}
+.hb-childProducts >h2{
+	font-size: 24px;
+}
+}

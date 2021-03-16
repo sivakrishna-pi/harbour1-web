@@ -1,0 +1,64 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Harbour1®",
+  "short_name": "Harbour1®",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#2F1DAC",
+  "theme_color": "#2F1DAC",
+  "description": "In today’s digital-driven economy, cloud services have assumed significance for right reasons. With enterprises focusing on to their core and emphasizing on quicker time to market, the need for flexibility in access, scalability in capacity, agility in performance, business continuity and cost efficiency, are rightly addressed by adoption of cloud-native strategies.",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": "false",
+  "icons": [
+     {
+      "src": "images/pwa/72.png",
+      "type": "image/png",
+      "sizes": "72x72",
+      "purpose": "any maskable"
+    },
+     {
+      "src": "images/pwa/144.png",
+      "type": "image/png",
+      "sizes": "144x144",
+       "purpose": "any maskable"
+    },
+    {
+      "src": "images/pwa/192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+      
+    },
+    {
+      "src": "images/pwa/192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+      
+    },
+    {
+      "src": "images/pwa/512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+       "purpose": "any maskable"
+    }
+  ],
+  "screenshots" : [
+  {
+    "src": "images/harbour_logo.png",
+    "sizes": "1280x720",
+    "type": "image/png"
+  },
+  {
+    "src": "images/harbour_logo.png",
+    "sizes": "1280x720",
+    "type": "image/png"
+  }
+],
+
+  "url": "https://harbour1.in/",
+  "generated": true
+}

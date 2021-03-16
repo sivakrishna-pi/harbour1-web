@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Harbour1®</title>
+      <link rel="icon" href="http://103.210.73.84/Harbour1-homepage/images/H1 logo 1000x1000.png">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- jquery cdn-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <!-- -->
+      <!-- font awesome cdn-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--  -->
+      <!-- slider cdn-->
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <!-- -->
+      <!-- animation cdn cdn-->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+      <script src="https://wowjs.uk/dist/wow.min.js"></script>
+      <link rel="stylesheet" href="https://wowjs.uk/css/libs/animate.css">
+      <!-- -->
+      <script src="https://www.jqueryscript.net/demo/Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js/jquery.countup.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+      <script>
+         new WOW().init();
+                
+                function myFunction(x) {
+                x.classList.toggle("change");
+                }
+                
+                $(document).ready(function(){
+          
+         
+         $('.counter').countUp({
+         'time': 2000,
+         'delay': 10
+         });
+         
+         
+         
+          
+          			window.onscroll = function() {myFunctions()};
+         
+         var header = document.getElementById("myHeader");
+         var sticky = header.offsetTop;
+         
+         function myFunctions() {
+         if (window.pageYOffset > sticky) {
+           header.classList.add("sticky");
+         } else {
+           header.classList.remove("sticky");
+         }
+         }
+                
+                $('.items').slick({
+                dots: true,
+                infinite: true,
+                speed: 800,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                responsive: [
+                {
+                breakpoint: 1024,
+                settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+                }
+                },
+                {
+                breakpoint: 600,
+                settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+                }
+                }
+                
+                ]
+                });
+                });
+         
+         
+         
+         
+             
+      </script>
+      <style>
+         body {
+         margin: 0;
+         font-family: 'Roboto', sans-serif;
+         font-size: 1rem;
+         font-weight: 400;
+         line-height: 1.5;
+         color:#535353;
+         text-align: left;
+         background-color: #fff;
+         }
+         .nav-link {
+         display: block;
+         padding: .5rem 1rem;
+         color: #6734FF;
+         }
+         .card_top {
+         position: relative;
+         top:33px;
+         color: white;
+         border: none;
+         } 
+         .fnt_size {
+         font-size: 73px; 
+         font-weight: 700;
+         }
+         .sub_fnt {
+         font-size: 22px;
+         font-weight: 700;
+         }
+         .items {
+         width: 90%;
+         margin: 0px auto;
+         margin-top:50px
+         }
+         .slick-slide {
+         margin: 10px
+         }
+         .slick-slide img {
+         width: 100%;
+         border: 0px solid #fff
+         }
+         .slick-prev:before, .slick-next:before {
+         font-family: 'slick';
+         font-size: 20px;
+         line-height: 1;
+         opacity: .75;
+         color: #040404;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+         }	
+         .footer_clss{
+         background: #4B24C3;
+         position: relative;
+         top: 16px;
+         height: 75px;
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         justify-content: center;
+         }
+         .p_fnt {
+         color: white;
+         font-weight:500;
+         }
+         .cc_bar{
+         color: #6735ff;
+         }
+         .cc-color-1{
+         color: #4185a9;
+         }
+         .cc-color-2{
+         color: #2f9a8d;
+         }
+         .cc-color-3{
+         color: #5d982b;
+         }
+         .cc-color-4{
+         color: #8765c6;
+         }
+         p {
+         margin-top: 0;
+         margin-bottom: 1rem;
+         font-size: 18px;  
+         }
+         .cc_fntt {
+         color: #2b1485;
+         background: #fbfbff;
+         padding: 12px 14px;
+         cursor: pointer;
+         border-radius: 50%;
+         font-size: 15px;
+         }
+         .top-container {
+         background-color: #f1f1f1;
+         padding: 30px;
+         text-align: center;
+         }
+         .header {
+         padding: 10px 16px;
+         background: #555;
+         color: #f1f1f1;
+         }
+         .content {
+         padding: 16px;
+         }
+         .sticky {
+         position: fixed;
+         top: 0;
+         width: 100%;
+         }
+         .sticky + .content {
+         padding-top: 102px;
+         }
+         .navbar-light{
+         z-index: 999;
+         background: white;
+         }  
+         .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+         color: #495057;
+         background-color: #fff;
+         border-bottom: 3px solid #4441c5;
+         }
+         .nav-tabs {
+         border-bottom: none;
+         display: flex;
+         justify-content: center;
+         }
+         .nav-tabs .nav-link {
+         border: none;
+         border-top-left-radius: .25rem;
+         border-top-right-radius: .25rem;
+         }
+         .cc_header{
+         border-top: 6px solid #4441c5;
+         background: none;
+         border-bottom: none;
+         }
+         .min_height_card{
+         min-height:265px;
+         }
+         .cc_fnt{
+         font-weight: 100;
+         border: 1px solid;
+         font-size: 13px;
+         color: green;
+         margin-right: 7px;
+         padding: 3px;
+         border-radius: 50%;
+         }
+         .cc_clr{
+         color: #c5c1d0;
+         }
+      </style>
+   </head>
+   <body>
+      <nav class="navbar navbar-light justify-content-between" id="myHeader">
+         <div class="container">
+            <a class="navbar-brand"><img  src="../Harbour1-homepage/images/harbour_logo.png" style="max-width: 100%;height:9vh;"></a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s"  href="#"><strong>Products</strong> </a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s" href="#"><strong>Industry Solutions</strong></a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s" href="#"><strong>Cloud Enablement </strong></a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s" href="#"><strong>Pricing </strong></a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s" href="#"><strong>Partners </strong></a>
+            <a class="nav-link span3 wow pulse" data-wow-iteration="5" data-wow-duration="0.25s" href="#"><strong>Self Service </strong></a>
+            <i class="fa fa-bars cc_bar"></i>
+         </div>
+      </nav>
+      <picture>
+         <source media="(max-width: 728px)" srcset="/Harbour1-homepage/imges/Harbour1_Banner_2020_2b_780x840.png?v10">
+         <img class="mb-5" src="../Harbour1-homepage/images/B1_1520x529.png" alt="Harbour1 Cloud Backup as a Service Banner" style="width:100%" data-pagespeed-url-hash="642989984" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+      </picture>
+      <div class="container content site-wrap">
+         <div class="text-center">
+            <h3><strong>Focus on your business, not IT</strong></h3>
+            <p>Let us manage your IT  infrastructure, while you manage your business. Instead of investing into building your IT infrastructure grounds up  and hassling through the maintenance of it, accelerate your digital transformation with high-performance compute on Harbour1</p>
+            <h3 class="m-4"><strong>Explore our Networking Products</strong></h3>
+            <ul class="nav nav-tabs" role="tablist">
+               <li class="nav-item">
+                  <a class="nav-link active cc_clr" data-toggle="tab" href="#home">
+                     <h5>Connect </h5>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link cc_clr" data-toggle="tab" href="#menu1">
+                     <h5>Scale </h5>
+                  </a>
+               </li>
+                          </ul>
+            <!-- Tab panes -->
+            <div class="tab-content">
+               <div id="home" class="container tab-pane active">
+                  <br>
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <h5>Software Defined WAN (SD-WAN)</h5>
+                        <p>Harbour1 with its underlying Software Defined infrastructure has integrated SD -WAN to its architecture. It has enabled network admins to use bandwidth more efficiently, ensuring high performance for critical applications without compromising on security or data privacy. The unified WAN backbone delivers comprehensive analytics across the enterprise backbone. </p>
+                     </div>
+                     <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row mt-5">
+                     <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <h5>Multiprotocol Label Switching (MPLS)</h5>
+                        <p>MPLS on Harbour1 enables enterprises to build advanced and intelligent networks that deliver a wide variety of services over a single infrastructure. This solution can be  utilized for bandwidth adjustment, to reduce network congestion and increase quality of service. Enterprises with diverse access links can be added on an MPLS edge without changing their current environments.</p>
+                     </div>
+                  </div>
+                  <div class="row mt-5">
+                     <div class="col-lg-6">
+                        <h5>Direct Connect (P2P)</h5>
+                        <p>Seamless and secure Point to Point ethernet connection ensures your premise is directly connected to Harbour1. Enterprises can also establish private connectivity between Harbour1 and their multi cloud environments. This ensures increased bandwidth throughput up to hundreds of Gigs to meet real-time spikes and eases the transfer of large data sets over the wire</p>
+                     </div>
+                     <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                  </div>
+                 
+
+ <div class="row mt-5">
+
+ <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                    
+                     <div class="col-lg-6">
+                        <h5>Virtual Private Network(VPN)</h5>
+                        <p>VPN on Harbour1 provides anonymity by creating a private network over open internet. It enables enterprises to access cloud workloads from anywhere, any time through any device without compromising security. Masking of internet protocol (IP) address keeps your transactions at bay from intrusion. Network admins can use VPN to gain visibility into network,  certificate pinning, and encrypting data</p>
+						</div>
+
+                    
+                  </div>
+
+                   <div class="row mt-5">
+                   
+                     <div class="col-lg-6">
+                        <h5>Wifi on Cloud</h5>
+                        <p>Wi-Fi on Harbour1 allows enterprises to manage the entire network from cloud. It eliminates the need of having the wireless controller hardware on premise thereby ensuring swift scalability. It also service offers users an enhanced experience through location-based and context-aware applications while reducing capex and operational expense with a pay-as-you-grow model.</p>
+                     </div>
+
+  <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+               <div id="menu1" class="container tab-pane fade">
+                  <br>
+                  <div class="row">
+                     <div class="col-lg-6">
+                        <h5>Content Delivery Network (CDN)</h5>
+                        <p>By geographically distributing a network of proxy servers and caching data spatially relative to end users, Harbour1 CDN service ensures high availability and performance. It can be used for content storage and delivery service for web acceleration, file download optimization, transcoding, video on demand and live streaming. Enterprise has the flexibility to choose content across multiple locations across the globe. </p></div>
+                     <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row mt-5">
+                     <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <h5>Load balancer (LB)</h5>
+                        <p>Enterprises can distribute workloads and computing resources within a cloud environment using Harbour1. This process is adopted by organizations and enterprises to manage workload demands by providing resources to multiple systems or servers. Its advantages over conventional load balancing of on-premises assets are lower cost and the simplicity of scaling the application up or down as per business demands.</p>
+						</div>
+                  </div>
+               </div>
+               <div id="menu2" class="container tab-pane fade">
+                  <br>
+                 <div class="row">
+                     <div class="col-lg-6">
+                        <h5>Firewall</h5>
+                        <p>By geographically distributing a network of proxy servers and caching data spatially relative to end users, Harbour1 CDN service ensures high availability and performance. It can be used for content storage and delivery service for web acceleration, file download optimization, transcoding, video on demand and live streaming. Enterprise has the flexibility to choose content across multiple locations across the globe. </p></div>
+                     <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row mt-5">
+                     <div class="col-lg-6">
+                        <div style="border: 1px solid #001fff;height: 100%;">
+                        </div>
+                     </div>
+                     <div class="col-lg-6">
+                        <h5>Virtual Private Network(VPN)</h5>
+                        <p>VPN on Harbour1 provides anonymity by creating a private network over open internet. It enables enterprises to access cloud workloads from anywhere, any time through any device without compromising security. Masking of internet protocol (IP) address keeps your transactions at bay from intrusion. Network admins can use VPN to gain visibility into network,  certificate pinning, and encrypting data</p>
+						</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
+   <footer class="footer_clss">
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+               <p class="text-center m-0 p_fnt">All  Rights Reserved @2021</p>
+            </div>
+            <div class="col-lg-4 d-flex">
+               <p class="m-0 p_fnt">Powered <br> By</p>
+               <img src="../Harbour1-homepage/images/Pi logo 180x-07.png" style="max-width: 100%;height:6vh;">
+            </div>
+         </div>
+      </div>
+   </footer>
+</html>

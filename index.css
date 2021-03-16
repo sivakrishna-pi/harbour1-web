@@ -1,0 +1,65 @@
+	    
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+		
+	 .css-img {
+         left: 1rem;
+         top: 1rem;
+         }
+         .css-video-add{
+         position: absolute;
+         bottom: 13%;
+         left: 21%;
+         }
+         .wcss-span{
+         font-size: 23px;
+         font-weight: 200;
+         }
+         .img-wcss {
+         max-width: 100%;
+         height: 7rem;
+         }
+         .bck-ccs-1{
+         background: #eff5ef;
+         padding: 80px 31px;
+         clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 89%);
+         }
+         .fnt-style-css {
+         font-weight: 600;
+         font-size: 14px;
+         color: #586e66;
+         }
+         .clep-banner{
+         clip-path: polygon(0 0, 100% 0%, 99% 86%, 0% 100%);
+         }
+         .bnfts-css{
+         text-align: center;
+         font-size: 22px;
+         font-weight: 700;
+         color: #cbdb2a;
+         }
+         .min-height-wpcsw{
+         min-height: 15rem;
+         }
+
+         .css-whdr {
+          background: #243b98;
+          color: #8cc643;
+          font-weight: 1000;
+          font-size: 11px;
+        }
+
+        .btn-primary {
+          color: #fff;
+          background-color: #243b98;
+          border-color: #243b98;
+        }

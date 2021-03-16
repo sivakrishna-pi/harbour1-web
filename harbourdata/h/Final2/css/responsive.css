@@ -1,0 +1,358 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (min-width:1800px) {  
+	.banner a.learnMore { bottom:100px; }
+	/*.cameraContent:first-child .caption img {width: 1200px}*/
+}
+@media screen and (min-width:1000px) { 
+nav > ul ul ul {
+    top:0;
+	
+    /*margin:0 0 0 150px*/
+}
+	nav ul .sub-menu-2 ul ul {display:block !important}
+}
+@media only screen and (max-width: 1400px) {
+    
+   
+	.banner .caption img { max-width: 100% !important }
+	/*nav > ul >li > ul.sub-menu {right:0}*/
+	nav > ul >li:last-child > ul.sub-menu {right:0}
+	.banner-video { margin-top:-200px }
+	/*.cameraContent:first-child .caption img {width: 55%; margin-top: 30px}*/
+	
+}
+@media only screen and (max-width: 1250px) {
+/*nav > ul ul ul { right:0 !important; margin:0 200px 0 0 }*/
+.banner-video { margin-top:-100px }
+.sec13 { height:450px }
+.home-carousel-1 { width:90%; margin:0 auto }
+
+
+}
+@media only screen and (max-width: 1200px) {
+	.container, .cap-out { max-width:98%}
+	  .home-carousel-1 .owl-controls .owl-nav .owl-next { right:-25px }
+    .home-carousel-1 .owl-controls .owl-nav .owl-prev { left:-25px }
+	
+	.sec-2 .row-2 {padding:80px 0 }
+	.sec-2 .ermnt { padding: 0  }
+	nav > ul > li > a { font-size:16px}
+	/*.logo img {width:80%}*/
+}
+
+@media only screen and (max-width: 1110px) {
+	 .tco-list li { height:290px }
+	 .product-wrap .tco-list li { height:auto; }
+	 .banner-video { margin-top:-50px }
+	 .pct-detail .leftpage { width: 26%; }
+	 .pct-detail .rightpage { width:74% }
+	 
+	.sec-7 .tco-list li { height: auto !important;}
+	.tco-list li h4 { font-size:20px }
+	.social-share li:last-child {width: 50px !important; overflow: hidden; 
+	}
+	.pricing-table .rpt_style_basic .rpt_plan .rpt_head .rpt_price {margin-top: 0!important 
+	}
+	 
+}
+
+@media only screen and (max-width: 1000px) {
+	.header-rht { margin-top:43px; }
+	.list-slidder-4 .pic-hover p { height:100px; }
+	.sec13 { height:310px; }
+	.video-outer-layer h1, .header-caption h1 { padding-top:165px; }
+	.industrypro-list li { width:28% }
+	.industrypro-list li:first-child { margin-left:0 }
+	.header-rht { margin-top:26px; }
+	.header { background:rgba(15, 51, 79, 0.9); }
+	.logo img { width:100% }
+	.logo { width:135px; }
+	.srch { margin-top:0 }
+	nav { margin-left:5px }
+	.header { position:absolute }
+	.inner-banner-2 {  height:300px !important; }
+	.news .pagination { padding-top:15px; }
+	.news-cnt h5 { margin-bottom:5px }
+	.news-cnt p { font-size:15px; }
+	#careerformpop { width:640px; }
+	.sec-7 .tco-list li { width:32% !important; widows:140px !important; }
+	
+	.tco-list li h4 { font-size:18px; }
+	.industry-sec .industrypro-list li { min-height:230px }
+	.cloudpro .pic img { padding-right:0 }
+	.sec-7 .tco-list li:nth-child(3n) { margin-right:0 }
+
+        .newlinespan{display: inline-block;}
+        
+        [class^="piicon-"], [class*=" piicon-"] {font-size: 60px !important }
+}
+
+@media only screen and (max-width: 900px) {
+	.caption h1 { font-size:42px }
+	.home-sec-4 h1 { font-size:19px; }
+	.home-sec-4 li h4 { font-size:24px; }
+	.home-sec-4 li h5 { font-size:16px; }
+	.tco-list li h4 { font-size:18px; }
+	.sec-2 h1, .col-1-top h1 { font-size:26px; }
+	.col-1-top p { width:100% }
+	.list-slidder-4 .pic-hover p { height:auto; font-size:13px; line-height:24px }
+	.list-slidder-4 .pic-hover h3 { font-size:13px; }
+	.pct-sec-1, .industrypro { padding:40px 0 }
+	h1.txt-2 { font-size:24px; }
+	.industrypro h1 span { font-size:20px; }
+	.tsml { width:95% }
+	.row-001 { padding:40px 0}
+	.grid .large-6, .pct-detail .grid .large-6 { width:100% }
+	.one_half.left_padding{
+    box-sizing:border-box;
+    padding-left:0
+}
+	.content-rht { padding-left:0 }
+	.content-lft { padding:0 }
+	.pct-detail .leftpage >ul>li>a { font-size:15px; }
+	.pct-detail .rightpage { padding: 40px 0 40px 45px; }
+	.pct-detail .leftpage { padding: 40px 0; }
+	.news-txt { width:80%}
+	.news-txt .pic iframe { height:200px; }
+	.career-pic .large-6 { width:46% }
+	.pop-close { top: -46px; right: -18px; }
+	.ind-cnt { width:100%; margin-top:10px }
+	.cameraContent:first-child .caption img {width: 100%; height: auto; }
+}
+
+@media only screen and (max-width: 800px) {
+	.home-sec-5 h2 { font-size:18px; }
+	.tco-list li { width:31.5% }
+	/*.tco-list li:nth-child(4n) { margin-right:2%}*/
+	/*.tco-list li:nth-child(3n) { margin-right:0}
+	.tco-list li:nth-child(5) { margin-left:0 }*/
+	.camera_wrap .camera_pag .camera_pag_ul { bottom:20px }
+	.pct-detail .rightpage p { font-size:16px; }
+	.pct-detail .rightpage li { font-size:14px; line-height:20px; }
+	.pct-detail .rightpage h2 { font-size:19px; }
+	.pct-detail .rightpage h1 { font-size:22px; }
+	.pct-detail .leftpage ul li .children li a { padding:8px 0 }
+	.career-list .lftli { padding-right:5px } 
+	.career-list .rhtli { padding-left:5px }
+	.career-list > li { width:100%; padding:0 0 15px 0 !important }
+	.file_up { margin-left:0 }
+	
+	.sec-7 .tco-list li{ width:32% !important;}
+	.industry-sec .industrypro-list li {min-height:255px; }
+	.industry-sec { padding-top:30px; margin-top:30px }
+	.home-carousel-1 .cnt { padding-top:0 }
+}
+
+@media only screen and (max-width: 700px) {
+	
+	
+	p { font-size:14px; line-height:25px }
+	.home-carousel-1 .owl-item img { height:auto }
+	.sec-2 h1, .col-1-top h1 { font-size:20px; }
+	.sec-2 .home-carousel-1 h1 { font-size:20px }
+	.home-sec-4 li, .home-sec-4 .second-col { width:100%; margin-right:0; text-align:center;     padding-top: 0;}
+	.home-sec-4 li .pic { padding:20px 0 }
+	.home-sec-4 { padding:40px 0 }
+	.home-sec-5 h2 { margin:0 0 20px 0;  }
+	.col-1-top p { font-size:16px; }
+	.footer-bottom .lft { width:100% }
+	.learnMore, .home-sec-5 a { height:45px; line-height:45px !important }
+	.footer-cnt { padding-bottom:30px }
+	footer { padding:30px 0 }
+	
+	.list-slidder-4 .pic-hover p { line-height:18px; padding-bottom:8px }
+	.list-slidder-4 .pic-hover { padding:10px;}
+	.list-slidder-4 { margin:25px 0 !important}
+	.video-outer-layer p, .header-caption p { width:100%; font-size:14px; line-height:24px  }
+	.video-outer-layer h1, .header-caption h1 { font-size:30px; }
+	.sec13 { height:290px; }
+	.pct-sec-1 img { height:auto }
+	.industrypro-list li { width:48% }
+	.whoweare .lft, .whoweare .rht { width:100% }
+	.whoweare .rht img { padding-top:0 }
+	.about-sec-2 li { width:100%; margin-right:0 }
+	.pct-detail .leftpage .children { padding-left:15px; }
+	.pct-detail .leftpage { width:30% }
+	.pct-detail .rightpage { width:70%; padding-left:30px }
+	.inner-banner-2 {  height:240px !important; }
+	.inner-banner-2 .header-caption h1 {  padding-top: 149px;}
+	.news-txt { width:76%}
+	.news-cnt h4 { margin-bottom:6px } 
+	.news-detail .news-cnt, .news-pic { width:100%; }
+	.team-row-bot ul li{ width:32%; margin-bottom:35px;}
+        
+	.team-row-bot ul li:nth-child(3n){ margin-right:0% !important;}
+        
+	.career-table h2 { font-size:14px }
+		.footer-bottom .lft, .footer-bottom .lft p, .social-icons, .footer-bottom .powered { width:100%; float:none; text-align:center }
+	.social-icons a { display:inline-block; float:none }
+	.txt-001 { padding-bottom:30px }
+	.career-page h1 { margin:30px 0 }
+	#careerformpop { width:90% }
+	.stacktable.small-only { display: table;   margin-bottom: 15px; }
+	td.st-key { display:none }
+	.career-table .col-1, .career-table .col-2, .career-table .col-3 { width:100%; display:block;     float: left; }
+	.career-table .col-3 { height:80px; }
+	.career-table tr { float:left; margin-bottom:20px;     width: 100%; }
+	#opening-btn { margin:30px  auto}
+	.industry-sec .industrypro-list li { width:48% }
+	
+	.contact-left-box{ width:100%;}
+	.contact-right-box{ width:100%;  padding:0% 3% 0% 3%; box-sizing:border-box;}
+	.contact-detail-box{ width:29%; min-height:80px; padding-bottom:0px;}
+	.contact-detail-box:nth-child(3){ border-left:solid 1px #e5e5e5; border-right:solid 1px #e5e5e5; padding:0% 2% 0% 2%; margin:0% 2% 0% 2%;}
+	.blogCnt, .rtBlogCnt { width: 100%; }
+	.blogCnt { margin-bottom: 25px }
+	.blogCnt .blogCopy { padding-left: 82px;}
+	.blogCnt .blogCopy h1 {font-size: 15px}
+	.pricing-list-1 li {    padding: 4px 15px 4px 0; margin-right: 15px;}
+	.pop-call {top: 255px}
+}
+
+@media only screen and (max-width: 640px) {
+	.pricing-table .rpt_3_plans .rpt_plan {width: 96%}
+	.popup-pricing {width: 96%}
+}
+@media only screen and (max-width: 600px) {
+	.home-carousel-1 .cnt, .home-carousel-1 .pic, .ermnt .home-carousel-1 .cnt, .ermnt .home-carousel-1 .pic { width:100%; text-align:center }
+	.sec-2 .home-carousel-1 .learnMore { margin:0 auto 20px auto !important }
+	.tco-list li { width:49% }
+	/*.tco-list li:nth-child(3n) { margin-right:2%}
+	.tco-list li:nth-child(2n) { margin-right:0}*/
+	.footer-nav > li { width:100%; margin:0 0 20px 0; text-align:center }
+	
+
+	.footer-nav > li:last-child { margin-bottom:0 }
+	.caption h1 { font-size:32px; }
+	.caption p { font-size:18px; }
+	.caption p { padding-bottom:0 }
+	 .home-sec-3 { padding-bottom:20px }
+	 .camera_wrap .camera_pag .camera_pag_ul { bottom:16px }
+	 .list-slidder-4 li { width:48% !important; margin-bottom:12px !important }
+	 .list-slidder-4 li:nth-child(2n) { margin-right:0 !important}
+	 .list-slidder-4 .pic-hover p { padding-bottom:20px} 
+	 .pct-sec-1 .cnt, .pct-sec-1 .pic { width:100%; text-align:center !important;     margin-bottom: 15px; }
+	 .pct-sec-1 .learnMore { margin:0 auto 20px auto !important }
+	 .video-outer-layer p, .header-caption p { line-height:20px; font-size:13px; }
+	 .video-outer-layer h1, .header-caption h1 { font-size:24px; margin-bottom:5px; }
+	 .sec13 { height:225px; }
+	 .pct-sec-1 img { width:60% }
+	 .inner-banner-1  h1 { padding-top:138px }
+	 .sec-2 .row-1 .lft,.sec-2 .row-1 .rht { width:100%; text-align:center }
+	 .sec-2 { padding:40px 0 }
+	 .pct-detail .leftpage { width:100%; padding-bottom:0}
+	.pct-detail .rightpage { width:100%; padding-left:0; border-left:none  }
+	.pct-detail .rightpage ul { padding-left:15px }
+	.news-cnt, .news-pic { width:100% }
+	.news-pic { margin-bottom:20px }
+	.sec-7 .tco-list li{ min-height:320px;}
+	.sec-7 .tco-list li {width:49%  !important }
+	.sec-7 .tco-list li:nth-child(3n) { margin-right:2% }
+	.sec-7 .tco-list li:nth-child(2n) { margin-right:0 }
+	.contact-detail-box{ width:100%; box-sizing:border-box;}
+	 	.contact-detail-box:nth-child(3){ border-left:none; border-right:none; padding:0%; margin:0%;}
+		.contact-icon-box{ width:5%; min-height:inherit !important;}
+		.contact-detail-box{ min-height:inherit !important;}
+		.pic.rightal.pronext .t-cell { text-align:center }
+		
+
+}
+
+@media only screen and (max-width: 480px) {
+	.sec-2 .row-1 .lft,.sec-2 .row-1 .rht { width:100%; text-align:center }
+	.sec-2 .row-2 {padding:20px 0 }
+	.sec-2 { padding:30px 0 0 0 }
+	.header { position:absolute }
+	.home-carousel-1 { width:85% }
+	.sec-2 .ermnt { padding-top:0 }
+	.home-sec-3 { padding:35px 0 20px  0 }
+	nav { margin-right:6 }
+	.banner a.learnMore, .video-outer-layer p, .header-caption p { display:none }
+	.sec13 { height:210px; }
+	h1.txt-2 { font-size:20px; }
+	.industrypro h1 span { font-size:15px; }
+	.industrypro-list li { width:98% }
+	.industry-cnt { text-align:center; }
+	.industrypro-list .icon { float:none; margin:0px auto 10px auto }
+	.news-detail .news-date { display:none  !important}
+	.news-detail .news-txt { width:100% !important
+}
+.directors li:nth-child(2){ margin-right:0px;}
+.directors li{ width:47% !important;}
+.directors li{ margin-bottom:35px;}
+.pi-box-main{ width:100% !important;}
+.team-row-01{ width:100% !important;}
+.ceo{  float:none !important;  width:280px !important; margin:auto auto !important; margin-bottom:35px !important;}
+.ceo h1{ text-align:center !important;}
+.team-row{ padding-bottom:5px !important;}
+.pi-box-01{ width:100% !important;}
+.team-row-bot ul li{ width:48% !important;  }
+.team-row-bot ul li:nth-child(odd){ margin-right:4% !important; margin-left:0% !important;}
+.team-row-bot ul li:nth-child(even){ margin-right:0% !important; margin-left:0% !important;}
+
+.team-sec .txt-2{ text-align:center !important;}
+.contact-right ul li{ width:100% !important;}
+.career-pic .large-3 { width:50% }
+.career-pic .large-6 { width:100% }
+.postResume { padding:20px }
+.career-list li label { width:100%; margin-bottom:6px; text-align:left }
+.txtinput, .selectBox, .last-row li .txtinput { width:100% }
+.dateofBirth .month, .dateofBirth .date { width:25% }
+.file_up .upload { margin-left:0 }
+.pop-close { right:10px }
+.sec-7 .tco-list li{ min-height:300px; width:48% !important;}
+.tco-list li:nth-child(4){ margin-left:0% !important;}
+.tco-list li { width:100%; margin-right:0; height:auto }
+.tco-list li:nth-child(3n) { margin:0%} 
+.tco-list li:nth-child(3n) { margin:0%} 
+.cnt-over { height:auto; overflow:visible; margin-bottom:0 }
+.product-wrap .icon-2 { height:150px; }
+.sec-7 .tco-list li {width:100%  !important; margin:0 0 20px 0 !important }
+	.sec-7 .tco-list li:nth-child(3n) { margin-right:0 }
+        
+        .srcpage{text-align: center;}
+        .comment-form-author input, .comment-form-email input { width: 100% }
+        .pop-heading h2 {font-size: 22px}
+        .pricing-table {padding: 40px 0}
+}
+
+@media only screen and (max-width: 400px) {
+	.home-sec-5 h2 { font-size:15px; line-height:24px; }
+	.home-sec-5 { padding:25px 0 }
+	.caption h1 { font-size:24px; }
+	.list-slidder-4 { width:80%; margin:10px auto !important; }
+	.list-slidder-4 .pic-hover { padding:6px }
+	.list-slidder-4 .pic-hover p {font-size:11px; padding-bottom:5px !important }
+	.list-slidder-4 li h4 { font-size:12px; }
+	.video-outer-layer h1, .header-caption h1 { padding-top:109px; }
+	.sec13 { height:166px; }
+	
+	.industry-cnt { padding-left:25px; }
+	.logo { width:100px; }
+	.header-rht { margin-top:18px; }
+	nav > ul { top:64px !important }
+	.video-outer-layer h1, .header-caption h1 { font-size:20px; }
+	.carousel-nav .owl-controls .owl-nav .owl-next { right:16% }
+	.carousel-nav .owl-controls .owl-nav .owl-prev { left:16% }
+	.inner-banner-2 {  height:160px !important; }
+	.inner-banner-2 .header-caption h1 {  padding-top: 100px;}
+	
+	.file_up #resumelabel, .file_up .upload, .file_up { width:100% !important }
+	.submit-btn { width:100%; float:none; margin-top:70px }
+	.file_up .upload-btn { width:100% }
+	.sec-7 .tco-list li{ min-height:200px; width:100% !important; }
+	.industry-sec .industrypro-list li { width:100%; margin:0 0 20px 0 !important; min-height:100px }
+	.enquiry li {width: 100%; margin: 0 0 15px 0}
+	.pop-call {top: 164px}
+	
+}
+@media only screen and (max-width: 350px) {
+	.news-txt { width:74% }
+	.news .pagination span, .news .pagination a { margin-right:6px }
+	.directors li{ width:100% !important; margin-right:0px !important;}
+	.pi-row ul li{ width:100% !important; margin-bottom:35px;}
+	.team-row-bot ul li{ width:100% !important; margin-right:0% !important; margin-bottom:30px !important;}
+
+	
+}

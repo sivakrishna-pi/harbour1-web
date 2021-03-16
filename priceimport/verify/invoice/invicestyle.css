@@ -1,0 +1,40 @@
+*{
+    box-sizing:border-box;
+}
+table {
+    border-collapse: collapse;
+    border: 0px solid black;
+}
+th{
+    background-color: #c0c0c0;
+    color:#243b98;
+    }
+
+   body {
+        /* height: 842px;
+        width: 1000px; */
+        /* to centre page on screen*/
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 10px;
+    }
+
+.left-block {
+	float: left;
+    width:48%;
+    display: inline-block;
+}
+.right-block {
+	float: right;
+    display: inline-block;
+}
+.fullwidth{
+    width: 100%;
+    margin : 0;
+    padding : 0;
+    display: inline-block;
+
+}
+img{
+    max-width :150px;
+}

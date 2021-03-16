@@ -1,0 +1,110 @@
+nav a#pull {
+	display: none;
+}
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 1000px) {
+nav > ul {
+	margin: 0;
+	position: absolute;
+	top: 80px;
+	width:40%;
+	right: 10px;
+	background:#0f334f; 
+	background-size:cover;
+	display: none;
+	z-index: 9999;
+	padding:0 0 0 0 !important;
+	border-radius:0 0 3px 3px
+}
+nav li {
+	width: 100%;
+	padding: 0px !important;
+	margin: 0px !important;
+	transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-webkit-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	text-align: center;
+	position: relative;
+}
+.menu-item-187 .sub-menu { width:100% !important }
+.menu-item-187 .sub-menu li { border-right:none }
+nav > ul > li > a { font-size:14px; }
+nav li a { padding:8px 0 !important; display:inline-block !important; outline:none; color:#000; line-height:normal; }
+.topMenu .top-nav li a:before, nav .child:before { display:none; }
+nav li a:hover { border-bottom:none; background:none; color:#59971B !important}
+nav ul > li > a:after, nav .current-menu-item a:after { display:none }
+nav > ul > li > a { border-bottom:0 }
+nav .current-menu-item {  }
+ nav .current-menu-item a { color:#fff } 
+ nav > ul ul li a { text-align:center }
+ 
+nav a#pull {
+	display: block;
+	background-color: #283744;
+	width: 100%;
+	position: relative;
+}
+nav a#pull:after {
+	content: "";
+	background: url(../images/nav-icon.png) no-repeat;
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	top: 4px;
+}
+.close:after{ background-position:0 -20px !important}
+
+nav ul li > ul.sub-menu {
+	padding:0 !important;
+	width: 100% !important;
+	z-index:99999;
+	position: static;
+	border-radius:0;
+	background:#011d32;
+}
+nav > ul ul ul { margin:0 !important; background: #1B5F95 !important; }
+nav > ul ul li, nav > ul ul li ul li { width:100%; background: none !important}
+nav > ul ul li {    background: none }
+nav > ul ul li ul li {     background-color: #A4A4A4;}
+
+nav .child li { text-align:center !important; padding:0 !important; float:none !important; width: 100% !important;  }
+
+nav .child li a { padding:10px 0 !important;  display: block;  }
+nav > ul > li.current-menu-item > a { border-bottom:none }
+.sub-two-col { width:100% !important }
+nav>ul>li>ul.sub-menu > li > a { font-weight:600; font-size:15px; text-align:center; margin-bottom:0; border-bottom: none !important; }
+.sub-two-col > ul > li { width:100% }
+.enment-menu > .sub-menu > li, .enment-menu .sub-two-col { width:100% !important }
+nav > ul > li, nav>ul>li > ul.sub-menu { border: none !important }
+nav > ul > li:hover{ border:none; }
+.sub-li-b { display:inline-block }
+.mob-contact, .sub-menu-icon { display:block }
+nav .open {
+    background-position: 1px -20px;
+}
+.sub-menu-2 > .sub-menu > li .sub-menu-icon { right: 20px; top: 7px}
+nav > ul ul li { float: none;     padding: 4px 0 !important;}
+.sub-menu-2 > .sub-menu > li:after { display: none;}
+nav > ul ul a { font-size: 13px}
+nav>ul>li>ul.sub-menu > li > a { font-weight: 400;}
+nav .p-sub-menu  .sub-menu {    padding: 0 !important;
+    width: 100% !important;
+    z-index: 99999;
+    position: static;
+    border-radius: 0;
+    background: #011d32; left: 0!important; border: none;}
+    nav .p-sub-menu  .sub-menu .sub-menu {display: none;}
+    nav .pricing-menu li {float: left}
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 500px) {
+nav ul {
+	width: 100%;
+	right: 0;
+}
+}

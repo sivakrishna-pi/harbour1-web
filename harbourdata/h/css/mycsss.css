@@ -1,0 +1,409 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+@font-face {
+    font-family: 'MyriadProSemibold';
+    src: url('../font/MyriadProSemibold.eot');
+    src: local('MyriadProSemibold'), url('../font/MyriadProSemibold.woff') format('woff'), url('../font/MyriadProSemibold.ttf') format('truetype');
+}
+.header {
+    /*background: #061b2e;*/
+    background: rgb(255, 255, 255);
+    width: 100%;
+        height: 87px;
+    /*height: 102px;*/
+    /*height: 95px;*/
+}
+
+.cloud-hosting {
+    color: #323131;
+    font-size: 36pt;
+    font-family: Roboto;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 500;
+}
+
+.cloud-server {
+    color: #323131;
+    font-family: Roboto;
+    text-transform: capitalize;
+    font-size: 25pt;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.cloudserverCon {
+    background: #e9e9e9;
+    height: 700px;
+    margin-top: 40px;
+    float: left;
+}
+
+.CpuFooter {
+    width: 100%;
+    font: left;
+}
+
+.CpuFooterCon {
+    width: 100%;
+    position: absolute;
+    padding: 0px !important;
+}
+
+.cpuIco {
+    width: 45%;
+    float: left;
+}
+
+.cpuTxt {
+    width: 47%;
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.inr {
+    width: 100%;
+    float: left;
+    margin-bottom: -9px;
+    color: #23b2f6;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.inrtext {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    color: #23b2f6;
+    font-size: 13pt;
+}
+
+.NameCpu {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 24pt;
+    font-family: 'Roboto', margin-top:20px;
+    width: 100%;
+    float: left;
+}
+
+.chooseOp {
+    height: 40px;
+    margin: 10px;
+    width: 12%;
+    float: left;
+}
+
+.chooseOp1 {
+    height: 40px;
+    margin: 10px;
+    width: 29%;
+    float: left;
+}
+
+.Tootal-Monthly {
+    text-align: right;
+    color: #4eb548;
+    font-size: 29pt;
+    ;
+    font-family: 'Roboto', sans-serif;
+}
+
+.priceM {
+    color: #2cace9;
+    font-family: "Roboto",sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: -6px;
+}
+.priceMnew {
+    color: #2cace9;
+    font-family: "Roboto",sans-serif;
+    font-size: 17pt;
+    font-weight: bold;
+    margin-top: -8px;
+}
+
+.MonthlyC {
+    margin-top: 30px;
+}
+
+.chooseOpN {
+    color: #3bb548;
+    font-size: 16pt;
+    margin-top: -5px;
+    margin-bottom: 12px;
+}
+.chooseOpNE3andE5 {
+    color: #3bb548;
+    font-size: 15pt;
+    margin-bottom: 12px;
+    margin-top: -5px;
+}
+.selectpicker {
+    width: 100%;
+    height: 22px;
+    font-family: 'MyriadProSemibold' !important;
+}
+
+.number {
+    float: right;
+    height: 25px;
+    margin-right: 54px;
+    margin-top: 4px;
+    width: 54px;
+}
+
+.number2 {
+    float: none;
+    margin-left: -15px;
+    margin-top: 4px;
+    width: 46px;
+}
+
+.cloudserverCon2 {
+    float: right !important;
+}
+
+.Enterprise {
+    padding: 0px !important;
+}
+
+.e3 {
+    color: #3bb548;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-bottom: 12px;
+    margin-top: -20px;
+    text-align: center;
+    width: 100%;
+}
+
+.chooseOp3 {
+    width: 30%;
+    margin-left: 150px;
+}
+
+.number2 {
+    float: right;
+    width: 50px;
+}
+
+.seleNum {
+    margin-top: 30px;
+}
+
+.seleNum1 {
+    margin-top: -40px;
+}
+
+
+.Tootal-Monthly2 {
+    color: #4eb548;
+    font-family: "Roboto",sans-serif;
+    font-size: 16pt;
+}
+
+.priceM2 {
+    color: #2cace9;
+    font-family: "Roboto",sans-serif;
+    font-size: 45pt;
+    font-weight: bold;
+    margin-left: 0;
+}
+
+.addCar {
+    margin-left: 0px;
+    font-size: 16px !important;
+    font-weight:bold;
+}
+
+.cloudserverConN {
+    height: 960px;
+    width: 48.5% !important;
+}
+
+.cloud-server2 {
+    text-align: center;
+}
+
+.EnterpriseT {
+    color: #323131;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 25pt;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+
+}
+
+.EnterpriseTM {
+    float: right !important;
+}
+
+.Elastic {
+    background: #e9e9e9 none repeat;
+    height: 800px;
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.EnterpriseTL {
+    padding: 0px !important;
+    width: 48.5% !important;
+}
+
+.mim {
+    width: 100%;
+    margin-top: 00px;
+    text-align: center;
+}
+
+.toggleMenu {
+    display: none;
+    background: #666;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+.nav {
+    list-style: none;
+    *zoom: 1;
+    /* background:#175e4c;*/
+}
+
+    .nav:before,
+    .nav:after {
+        content: " ";
+        display: table;
+    }
+
+    .nav:after {
+        clear: both;
+    }
+
+    .nav ul {
+        list-style: none;
+        width: 200px;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .nav a {
+        padding: 10px 15px;
+        color: #fff;
+    }
+
+    .nav li {
+        position: relative;
+    }
+
+    .nav > li {
+        float: left;
+        border-top: 1px solid #104336;
+    }
+
+        .nav > li > .parent {
+            background-image: url("images/downArrow.png");
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+
+        .nav > li > a {
+            display: block;
+        }
+
+    .nav li ul {
+        position: absolute;
+        left: -9999px;
+    }
+
+    .nav > li.hover > ul {
+        left: 0;
+    }
+
+    .nav li li.hover ul {
+        left: 100%;
+        top: 0;
+    }
+
+    .nav li li a {
+        display: block;
+        background: #1d7a62;
+        position: relative;
+        z-index: 100;
+        border-top: 1px solid #175e4c;
+    }
+
+    .nav li li li a {
+        background: #249578;
+        z-index: 200;
+        border-top: 1px solid #1d7a62;
+    }
+
+.logo {
+    float: left;
+}
+
+.navRight {
+    float: right;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+.cpuIco {
+    text-align: center;
+}
+
+    .cpuIco img {
+        height: 60px;
+        width: 60px;
+    }
+
+.mainCont3 .cpuIco img {
+    height: 66px;
+    width: 60px;
+}
+
+.mainCont4 .cpuIco img {
+    height: 66px;
+    width: 60px;
+}
+
+#container .inputField .jqx-input-content {
+    background-image: url("../core.png");
+}
+
+#container5 .inputField .jqx-input-content {
+    background-image: url("../core.png");
+}
+
+#container15 .inputField .jqx-input-content {
+    background-image: url("../unit.png");
+}
+
+#container16 .inputField .jqx-input-content {
+    background-image: url("../watts.png");
+}
+
+#container20 .inputField .jqx-input-content {
+    background-image: url("../unit.png");
+}
+
+#container19 .inputField .jqx-input-content {
+    background-image: url("../kva.png");
+}
+@media (min-width: 799px) and (max-width: 900px) {
+    .priceMnew {
+        margin-left: 20px !important;
+    }
+}

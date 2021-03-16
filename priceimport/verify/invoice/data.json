@@ -1,0 +1,229 @@
+{
+  "status": 200,
+  "message": {
+    "status_message": "ok",
+    "order_details": {
+      "products": [
+        {
+          "cpu": "2 Cores",
+          "ram": "4 GB",
+          "diskspace": "50 GB",
+          "datatransfer": "50 GB",
+          "cpuPrice": "1020.00",
+          "ramPrice": "2040.00",
+          "diskSpacePrice": "425.00",
+          "dataTransferPrice": "213.00",
+          "os": "Windows Server 2012",
+          "osPrice": "1260.00",
+          "database": "MS SQL Enterprise*",
+          "databasePrice": "38570.00",
+          "ip": 10,
+          "IpPrice": "2550.00",
+          "backup": "1000 GB",
+          "backupPrice": "10000.00",
+          "servername": "cloud-servers",
+          "name": "2 year (100% Advance)",
+          "tenure": 24,
+          "notes": "Total bill is for the period of two years in full.",
+          "beforeDiscountMonthlycost": 3698,
+          "discount": 1479.2,
+          "serverdiscount": [
+            {
+              "tenure_in_months": "3",
+              "discount": "15"
+            },
+            {
+              "tenure_in_months": "6",
+              "discount": "30"
+            },
+            {
+              "tenure_in_months": "12",
+              "discount": "35"
+            },
+            {
+              "tenure_in_months": "24",
+              "discount": "40"
+            },
+            {
+              "tenure_in_months": "36",
+              "discount": "50"
+            },
+            {
+              "tenure_in_months": "48",
+              "discount": "50"
+            }
+          ],
+          "promoDiscount": 0,
+          "quantity": 1,
+          "monthlycost": 54598.8,
+          "plan_price": 1310371.2,
+          "amount": 1310371.2,
+          "plan": "Cloud Hosting",
+          "subplan": "Cloud Servers",
+          "api_ram_price": "2040.00",
+          "api_cpu_price": "1020.00",
+          "api_diskspace_price": "425.00",
+          "api_database_price": "38570.00",
+          "api_os_price": "1260.00",
+          "api_datatransfer_price": "213.00",
+          "api_ip_price": "2550.00",
+          "api_backup_price": "10000.00",
+          "api_otc_price": 0,
+          "api_monthly_price": 54598.8,
+          "api_total_price": 1310371,
+          "api_promocode": "6XOQXX3GMD",
+          "api_discount": 131037
+        },
+        {
+          "cpu": "2 Cores",
+          "ram": "4 GB",
+          "diskspace": "50 GB",
+          "datatransfer": "50 GB",
+          "cpuPrice": "1020.00",
+          "ramPrice": "2040.00",
+          "diskSpacePrice": "425.00",
+          "dataTransferPrice": "213.00",
+          "os": "Windows Server 2012",
+          "osPrice": "1260.00",
+          "database": "MS SQL Enterprise*",
+          "databasePrice": "38570.00",
+          "ip": 10,
+          "IpPrice": "2550.00",
+          "backup": "1000 GB",
+          "backupPrice": "10000.00",
+          "servername": "cloud-servers",
+          "name": "1 year (50% Advance)",
+          "tenure": 6,
+          "notes": "Total bill is for first six months only. Subsequent invoices will be generated on half yearly basis hereafter.",
+          "beforeDiscountMonthlycost": 3698,
+          "discount": 1479.2,
+          "serverdiscount": [
+            {
+              "tenure_in_months": "3",
+              "discount": "15"
+            },
+            {
+              "tenure_in_months": "6",
+              "discount": "30"
+            },
+            {
+              "tenure_in_months": "12",
+              "discount": "35"
+            },
+            {
+              "tenure_in_months": "24",
+              "discount": "40"
+            },
+            {
+              "tenure_in_months": "36",
+              "discount": "50"
+            },
+            {
+              "tenure_in_months": "48",
+              "discount": "50"
+            }
+          ],
+          "promoDiscount": 0,
+          "quantity": 1,
+          "monthlycost": 54968.6,
+          "plan_price": 1310371.2,
+          "amount": 329812,
+          "plan": "Cloud Hosting",
+          "subplan": "Cloud Servers",
+          "api_ram_price": "2040.00",
+          "api_cpu_price": "1020.00",
+          "api_diskspace_price": "425.00",
+          "api_database_price": "38570.00",
+          "api_os_price": "1260.00",
+          "api_datatransfer_price": "213.00",
+          "api_ip_price": "2550.00",
+          "api_backup_price": "10000.00",
+          "api_otc_price": 0,
+          "api_monthly_price": 54968.6,
+          "api_total_price": 329812,
+          "api_promocode": "6XOQXX3GMD",
+          "api_discount": 32981
+        },
+        {
+          "cpu": "2 Cores",
+          "ram": "4 GB",
+          "diskspace": "50 GB",
+          "datatransfer": "50 GB",
+          "cpuPrice": "1020.00",
+          "ramPrice": "2040.00",
+          "diskSpacePrice": "425.00",
+          "dataTransferPrice": "213.00",
+          "os": "Windows Server 2012",
+          "osPrice": "1260.00",
+          "database": "MS SQL Enterprise*",
+          "databasePrice": "38570.00",
+          "ip": 10,
+          "IpPrice": "2550.00",
+          "backup": "1000 GB",
+          "backupPrice": "10000.00",
+          "servername": "cloud-servers",
+          "name": "3 year (100% Advance)",
+          "tenure": 36,
+          "notes": "Total bill is for the period of three years in full.",
+          "beforeDiscountMonthlycost": 3698,
+          "discount": 1479.2,
+          "serverdiscount": [
+            {
+              "tenure_in_months": "3",
+              "discount": "15"
+            },
+            {
+              "tenure_in_months": "6",
+              "discount": "30"
+            },
+            {
+              "tenure_in_months": "12",
+              "discount": "35"
+            },
+            {
+              "tenure_in_months": "24",
+              "discount": "40"
+            },
+            {
+              "tenure_in_months": "36",
+              "discount": "50"
+            },
+            {
+              "tenure_in_months": "48",
+              "discount": "50"
+            }
+          ],
+          "promoDiscount": 0,
+          "quantity": 1,
+          "monthlycost": 54229,
+          "plan_price": 1310371.2,
+          "amount": 1952244,
+          "plan": "Cloud Hosting",
+          "subplan": "Cloud Servers",
+          "api_ram_price": "2040.00",
+          "api_cpu_price": "1020.00",
+          "api_diskspace_price": "425.00",
+          "api_database_price": "38570.00",
+          "api_os_price": "1260.00",
+          "api_datatransfer_price": "213.00",
+          "api_ip_price": "2550.00",
+          "api_backup_price": "10000.00",
+          "api_otc_price": 0,
+          "api_monthly_price": 54229,
+          "api_total_price": 1952244,
+          "api_promocode": "6XOQXX3GMD",
+          "api_discount": 195224
+        }
+      ],
+      "api_total": 3592427,
+      "api_otc_total": 0,
+      "api_discount_total": 359242,
+      "api_total_tax": 581973,
+      "api_grand_total": 3815158,
+      "grand_total": 4239064,
+      "promocode": "6XOQXX3GMD"
+    },
+    "id": "OID7445453443"
+  }
+  
+}
